@@ -7,7 +7,7 @@ api oficial da [galeria publica](https://galley.zelferry.repl.co)
 ## como usar?
 
 ```js
-const galey = require("galley.API")
+const galey = require("galleyPublic.js")
 let g = new galey()
 
 g.rand().then((res) => {
