@@ -17,7 +17,7 @@ g.rand().then((res) => {
 ## Async / Await
 
 ```js
-require("galeria.js")
+let galey = require("galeria.js")
 let g = new galey()
 
 async function main() {
