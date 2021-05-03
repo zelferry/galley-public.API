@@ -1,23 +1,24 @@
 {
-  "name": "galleyPublic.js",
-  "version": "2.0.2",
-  "description": "livraria da GALERIA PUBLICA apara retornar imagens aleatórias!",
+  "name": "galeria.js",
+  "version": "1.0.1",
+  "description": "LIVRARIA oficial da galeria pública!",
   "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "axios": "^0.21.1"
   },
-  "keywords": [
-    "galeria",
-    "galley",
-    "roleta russa",
-    "API"
-  ],
-  "author": "zelferry",
-  "license": "MIT",
+  "devDependencies": {},
+  "scripts": {
+    "test": "src/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zelferry/galley-public.API.git"
   },
+  "keywords": [
+    "galeria"
+  ],
+  "author": "zelferry",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/zelferry/galley-public.API/issues"
   },

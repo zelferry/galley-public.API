@@ -16,14 +16,14 @@ let likres = Decrypt("114-126-126-122-125-68-57-57-113-107-118-118-111-131-56-13
 
 class galeria {
   constructor() {
-    this.ai = axios.get
+    this.ga = axios.get
   }
   async getdatabase() {
-    let data3 = await this.ai(likres)
+    let data3 = await this.ga(likres)
     return data3.data
   }
   async rand() {
-    let data2 = await this.ai(likres)
+    let data2 = await this.ga(likres)
     let im = data2.data.all
     let images = im.map((x)=>x.link)
     const result = images[Math.floor(Math.random() * images.length)]
@@ -38,7 +38,7 @@ class galeria {
     for(let i = 0; i < input; i++){
         let code = "";
         for(let e = 0; e < 1; e++){
-            let data2 = await this.ai(likres)
+            let data2 = await this.ga(likres)
             let im = data2.data.all
             let images = im.map((x)=>x.link)
             const result = images[Math.floor(Math.random() * images.length)]
