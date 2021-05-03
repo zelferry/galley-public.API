@@ -1,0 +1,17 @@
+{
+  "name": "galley.API",
+  "version": "2.0.0",
+  "description": "livraria da GALERIA PUBLICA apara retornar imagens aleatórias!",
+  "main": "galeria/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "galeria",
+    "galley",
+    "roleta russa",
+    "API"
+  ],
+  "author": "zelferry",
+  "license": "ISC"
+}
