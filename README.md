@@ -46,4 +46,7 @@ g.getdatabase() //retornar a DATABASE
 g.json([numero]) //retorna o numero de links de imagens aleatórias
 ```
 
-:)
+**.id(...)**
+```js
+g.id(<numero>) //retornar o id de uma imagem na DATABASE(ids ficam abaixo da imsgens no site)
+```

@@ -1,7 +1,6 @@
 let axios = require('axios');
-//i
-function Decrypt(value)
-{
+
+function Decrypt(value){
   var result="";
   var array = value.split("-");
 
@@ -31,10 +30,11 @@ class galeria {
   }
   async json(input){
     let list = []
-
-    if(!input || input == 0){
+    
+    if(!input || input == 0 || !parseInt(input)){
       input = 1
     }
+    
     for(let i = 0; i < input; i++){
         let code = "";
         for(let e = 0; e < 1; e++){
@@ -47,6 +47,17 @@ class galeria {
         list.push(`${code}`)
     }
     return list
+  }
+  async id(input2){
+    let data2 = await this.ga(likres)
+    let im = data2.data.all
+    if(!parseInt(input2)){
+     throw new Error("insira um número  valido!")
+    }
+    if(im.length < input2){
+      throw new Error("Invalido: o total de imagens e de "+im.length+" imagens!")
+    }
+    return im[input2 - 1]
   }
 }
 

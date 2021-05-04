@@ -1,6 +1,6 @@
 {
   "name": "galeria.js",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "LIVRARIA oficial da galeria pública!",
   "main": "src/index.js",
   "dependencies": {
